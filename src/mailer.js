@@ -18,10 +18,12 @@ async function main() {
     },
   });
 
+  console.log(testAccount);
+
   // send mail with defined transport object
   let info = await transporter.sendMail({
     from: '"Fred Foo 👻" <foo@example.com>', // sender address
-    to: "alinkokomansuby@gmail.com", // list of receivers
+    to: "rizkyarifnur@gmail.com", // list of receivers
     subject: "Hello ✔", // Subject line
     text: "Hello world?", // plain text body
     html: "<b>Hello world?</b>", // html body
