@@ -30,6 +30,7 @@ module.exports = {
       res.sendStatus(200);
     } catch (error) {
       logger.nodemailer("Error when sending emails", error);
+      throw new InvalidParameterException("Invalid SMTP Config");
     }
   },
 };
