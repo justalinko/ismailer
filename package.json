@@ -2,9 +2,9 @@
   "name": "ismailer",
   "version": "1.0.21",
   "description": "isMailer sending email multi-platform",
-  "main": "gui.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "(node server.js) & electron .",
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
